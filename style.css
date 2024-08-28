@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #D9B08C;
+    padding: 20px 0;
+    border-bottom: 4px solid #8C5E58;
+}
+
+header h1 {
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+.post-list .post-preview {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 2px solid #D9B08C;
+    margin-bottom: 20px;
+    border-radius: 0; /* Keep corners squared */
+}
+
+.post-list .post-preview h2 {
+    margin-top: 0;
+    color: #8C5E58;
+}
+
+.post-list .post-preview p {
+    margin: 5px 0;
+}
+
+.post {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 2px solid #D9B08C;
+    margin-bottom: 20px;
+    border-radius: 0; /* Keep corners squared */
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #8C5E58;
+}
+
+.post p {
+    margin: 5px 0;
+}
+
+.post .content {
+    margin-top: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #D9B08C;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 4px solid #8C5E58;
+}
+
+footer p {
+    margin: 0;
+    color: #FFFFFF;
+}
